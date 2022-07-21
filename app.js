@@ -59,9 +59,9 @@ app.post("/sign_up",(req,res) => {
 })
 
 app.get("/",(req,res) => {
-    res.set({
-        "Allow-access-Allow-Origin":'*'
-    })
+    // res.set({
+    //     "Allow-access-Allow-Origin":'*'
+    // })
     return res.status(200).json({
         status:true,
         msg:"successful!"
