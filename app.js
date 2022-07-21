@@ -6,7 +6,7 @@ const mongoose = require("mongoose")
 const app = express();
 //require("./db/conn");
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 1234
 
 const url = 'mongodb+srv://Shreyasa_Lankala:Shreyasa9@newcluster.jb0yv.mongodb.net/Signup'
 
